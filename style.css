@@ -45,3 +45,19 @@
     color: #1ABC9C;
 }
 
+.lm-contact-form input{
+    border: none;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+    
+}
+
+.lm-contact-form input:focus{
+    box-shadow: none;
+    border-color: grey;
+}
+
+.lm-contact-form .lm-message-box{
+    min-height: 150px;
+}
+

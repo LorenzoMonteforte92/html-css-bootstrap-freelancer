@@ -122,20 +122,23 @@
             </div>
             <div class="row g-3 my-2 flex-column align-items-center flex-md-row justify-content-md-center">
                 <div class="col-6 col-md-8" >
-                    <form>
+                    <form class="lm-contact-form" >
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="Name">
+                          </div>
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Email address</label>
                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                         </div>
                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
+                          <label for="number" class="form-label">Phone Number</label>
+                          <input type="text" class="form-control" id="number">
                         </div>
-                        <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <input type="text" class="form-control lm-message-box" id="message">
+                          </div>
                       </form>
                     <div><button type="button" class="btn btn-primary lm-bg-acqua mt-2 mb-md-4"><i class="fa-solid fa-download"></i>Send</button></div>
                 </div>
@@ -151,21 +154,21 @@
     <footer class="lm-bg-blue-grey text-white text-center" >
         <div class="container py-5">
             <div class="row text-center">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 my-md-2">
                     <h5>LOCATION</h5>
                     <p>2215 John Daniel Drive Clarck, MO 54243</p>
                 </div>
-                <div class="col-12 col-md-4 my-3">
+                <div class="col-12 col-md-4 my-3 my-md-2">
                     <h5 class="mb-4" >AROUND THE WEB</h5>
                     <div class="lm-footer-logo px-3" ><a class="text-white fs-5" href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
                     <div class="lm-footer-logo" ><a class="text-white fs-5" href="#"><i class="fa-brands fa-google-plus-g"></i></a></div>
                     <div class="lm-footer-logo" ><a class="text-white fs-5" href="#"><i class="fa-brands fa-twitter"></i></a></div>
                     <div class="lm-footer-logo" ><a class="text-white fs-5" href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
                 </div>
-                </div>
-                <div class="col-12 col-md-4 my-3">
+                <div class="col-12 col-md-4 my-3 my-md-2">
                     <h5>ABOUT FREELANCER</h5>
                     <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a></p>
+                </div>
                 </div>
             </div>
         </div>
