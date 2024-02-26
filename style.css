@@ -33,4 +33,11 @@
     background-color: #3A546D;
 }
 
+.lm-footer-logo{
+    display: inline;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 12px;
+    object-fit: fill;
+}
 
