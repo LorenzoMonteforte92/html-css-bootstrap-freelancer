@@ -41,3 +41,7 @@
     object-fit: fill;
 }
 
+.lm-hover-blue:hover .lm-hover-color-change {
+    color: #1ABC9C;
+}
+
