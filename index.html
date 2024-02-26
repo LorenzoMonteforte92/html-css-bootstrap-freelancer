@@ -11,37 +11,38 @@
 <body>
     <header class="text-white lm-bg-blue-dark py-3 px-lg-5 fixed-top" >
         <div class="container px-lg-5">
-        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-            <div class="container-fluid px-lg-5">
-              <a class="navbar-brand fw-bold" href="#">START BOOTSTRAP</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item lm-hover-blue">
-                    <a class="nav-link active lm-hover-color-change  " aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+                <div class="container-fluid px-lg-5">
+                  <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
                     </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+                  </div>
+                </div>
+              </nav>
         </div>
     </header>
+    
     <!-- bootstrap section -->
     <section class="lm-bg-acqua text-white py-5" >
         <div class="container text-center">
@@ -97,6 +98,7 @@
         </div>
     </section>
     <!-- /portfolio section -->
+    
     <!-- about section -->
     <section class="pt-5 pb-2 text-white lm-bg-acqua" >
         <div class="container text-center">
@@ -110,6 +112,7 @@
         </div>
     </section>
     <!-- /about section -->
+    
     <!-- contact section -->
     <section class="pt-5" >
         <div class="container ">
@@ -119,7 +122,21 @@
             </div>
             <div class="row g-3 my-2 flex-column align-items-center flex-md-row justify-content-md-center">
                 <div class="col-6 col-md-8" >
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos maxime doloribus quis dolore minima fugiat iste eveniet ullam! Recusandae ratione hic omnis aperiam amet obcaecati voluptatum sed maxime delectus consequuntur?
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                      </form>
                     <div><button type="button" class="btn btn-primary lm-bg-acqua mt-2 mb-md-4"><i class="fa-solid fa-download"></i>Send</button></div>
                 </div>
             </div>
