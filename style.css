@@ -61,3 +61,25 @@
     min-height: 150px;
 }
 
+.lm-column-form .lm-form-btn{
+    background-color: #1ABC9C;
+    color: white;
+    font-weight: bold;
+}
+
+.lm-column-form button:hover{
+    color: #1ABC9C;
+    border: solid 1px #1ABC9C;
+
+}
+
+.lm-decoration-bar{
+    border-radius: 10px;
+    width: 60px;
+    height: 6px;
+}
+
+.star-color{
+    color: #2C3E50;
+}
+
